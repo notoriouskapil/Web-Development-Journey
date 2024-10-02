@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+<body>
+    <h1>Form to apply sigma Web Development - TA</h1>
+    <!-- text element  -->
+  <div>
+    
+   <form action="/submit.php" method="post"></form>
+     <label for="username">Enter your Username:</label>
+     <input type="text" id="username" name="username" placeholder="Enter your Username" required>
+   </form>
+  </div>   
+  <!-- radio element  -->
+  <div>
+    <form action="">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="Male" value="female">
+    </form>
+  </div>
+  <!-- checkbox element -->
+  <div>
+    <form action="/submit.php" method="post">
+        <label for="subscribe">Subscribe the Newsletter</label>
+        <input type="checkbox" name="subscribe" id="subscribe"  value="yes">
+    </form>
+  </div>
+<!-- select element -->
+  <div>
+    <form action="/submit.php" method="post">
+        <label for="Fruits">Select Fruit</label>
+        <select name="Fruits" id="Fruits">Fruits
+            <option value="bannana">Bannana</option>
+            <option value="Papaya">Pappaya</option>
+            <option value="Jackfruit">Jackfruit</option>
+            <option value="Apple">Apple</option>
+        </select>
+        
+     
+    </form>
+
+  </div>
+  
+
+</body>
+</html>

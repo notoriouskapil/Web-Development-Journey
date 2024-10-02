@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* element selector */
+     div{
+        /* background-color: brown; */
+     }
+     /* class selector */
+     .red{
+        background-color: red;
+     }
+     /* id selector */
+     #green{
+        background-color: green;
+        color: black;
+     }
+/* child selectors */
+div > p{
+    background-color:  rgb(40, 121, 192);
+}
+/* descendant selector */
+body{
+   background-image: url(pexels);
+}
+
+    </style>
+</head>
+<body>
+     <div class="red"> 
+        I am div
+     </div>
+     <div id="green">
+        second div
+     </div>
+     <div>
+        <p>I am a para inside div</p>
+     </div>
+</body> 
+</html>
