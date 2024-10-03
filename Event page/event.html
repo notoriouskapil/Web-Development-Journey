@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Conference 2024</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+.event-details,
+.agenda,
+.registration {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type=text],
+input[type=email] {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tech Conference 2024</h1>
+        <p>Your gateway to the latest in technology!</p>
+    </header>
+
+    <section class="event-details">
+        <h2>Event Details</h2>
+        <p><strong>Date:</strong> March 15, 2024</p>
+        <p><strong>Location:</strong> Tech Convention Center, 123 Tech Ave, Silicon Valley, CA</p>
+        <p><strong>Time:</strong> 9:00 AM - 5:00 PM</p>
+    </section>
+
+    <section class="agenda">
+        <h2>Agenda</h2>
+        <ul>
+            <li><strong>9:00 AM:</strong> Registration and Breakfast</li>
+            <li><strong>10:00 AM:</strong> Keynote Speaker: Innovations in AI</li>
+            <li><strong>11:00 AM:</strong> Panel Discussion: The Future of Tech</li>
+            <li><strong>12:30 PM:</strong> Lunch Break</li>
+            <li><strong>1:30 PM:</strong> Workshop: Building Responsive Websites</li>
+            <li><strong>3:00 PM:</strong> Networking Session</li>
+            <li><strong>4:00 PM:</strong> Closing Remarks and Raffle Draw</li>
+        </ul>
+    </section>
+
+    <section class="registration">
+        <h2>Registration</h2>
+        <p>Please fill out the form below to register for the Tech Conference 2024.</p>
+        <form id="registration-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="company">Company/Organization:</label>
+            <input type="text" id="company" name="company">
+
+            <button type="submit">Register Now</button>
+        </form>
+
+        <div id="confirmation-message"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tech Conference. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
