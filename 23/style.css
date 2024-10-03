@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    border: 2px solid blue;
+    display: inline-block;
+    width: 344px;
+    padding: 35px;
+    margin: 45px;
+}
+/* .box1{
+    /* display: none; */
+    /* visibility: hidden;
+} */ 
+/* inline  block is imp otherwise padding,margin at top will compromise 
