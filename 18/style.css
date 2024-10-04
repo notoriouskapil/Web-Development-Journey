@@ -1,0 +1,22 @@
+  *{
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            background-color: yellowgreen;
+            padding: 10px;
+            margin: 25px;
+            border: 1px solid black;
+            height: 50px;
+            box-sizing: border-box;
+        }
+        .box1{
+            color: whitesmoke;
+            padding: 10px;
+            margin: 25px;
+            height: 50px;
+            box-sizing: border-box;
+        
+
+        }
+        
