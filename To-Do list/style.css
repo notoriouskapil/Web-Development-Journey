@@ -1,0 +1,23 @@
+body{
+        background-color: whitesmoke;
+        margin: 0px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+       }
+       .container{
+        background-color: white;
+        padding: 20px;
+        border-radius:5px;
+        box-shadow: 0 0 10px black;
+        width: 300px;
+       }
+       h1{
+         text-align: center;
+         color: black;
+       }
+       .input-container{
+        text-align: center;
+       }
